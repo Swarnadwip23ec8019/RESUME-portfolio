@@ -1,0 +1,147 @@
+*
+{
+  position : relative;
+}@media print {
+      @page {
+        size: A4;
+        margin: 20mm;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .a4 {
+        page-break-after: always;
+        width: 210mm;
+        height: 297mm;
+        padding: 20mm;
+        box-sizing: border-box;
+      }
+
+      .page:last-child {
+        page-break-after: auto;
+      }
+    }
+
+    /* For screen view (optional, to simulate A4 size) */
+    .a4 {
+      width: 210mm;
+      height: 297mm;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background: white;
+    }
+
+    @media print {
+      body {
+        background: none;
+      }
+      .a4 {
+        margin: 0;
+        box-shadow: none;
+        page-break-after: always;
+      }
+    }
+h2
+{
+    margin : 0px;
+    padding:0px;
+    font-weight : bold;
+    margin-bottom : 5px
+}
+.heading-details{
+    margin : 0px;
+    padding : 0px;
+}
+.heading-main{
+    margin-left : 45px;
+    font-weight : bolder;
+}
+.logo
+{
+    float : left;
+    margin-right : 10px;
+    margin-top : 40px;
+    height : 100px;
+    margin-bottom : 40px;
+    
+}
+.photo
+{
+    float:right;
+    height : 170.07874016px;
+    margin : 0px;
+    padding : 0px;
+}
+.blue-line
+{
+    display:inline-block;
+    border-bottom:1px 
+    solid #07e3f3; 
+    
+    margin-left:10px;
+}
+.edu{
+    width:76.7%; 
+}
+.aca{
+    width:76.6%; 
+}
+.work{
+    width:82.95%; 
+}
+.skills{
+    width:84.68%; 
+}
+.projects{
+    width:91.22%; 
+}
+.pos{
+    width:75.1%; 
+}
+.extra{
+    width:76.55%; 
+}
+.order{
+    
+}
+.first{
+    margin-left : 60px;
+}
+.graduation {
+  width: 730px;
+  border-collapse: collapse;
+  margin : 30px;
+  margin-top : 10px;
+  margin-bottom : 10px;
+  /*width: 600px;  or any fixed value like 80%, 50rem, etc. */
+  table-layout: fixed; /* Ensures the table obeys the fixed width */
+}
+.hs{
+  width: 730px;
+  border-collapse: collapse;
+  margin: 30px;
+  margin-top : 10px;
+  margin-bottom : 10px;
+  /*width: 600px;  or any fixed value like 80%, 50rem, etc. */
+   /* Ensures the table obeys the fixed width */
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: coral;
+}
+.block{
+  font-weight:bolder;
+}
